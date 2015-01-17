@@ -24,3 +24,14 @@ Jos git / github ei ole tuttu, mutta haluat silti lisätä tekstiä saitille, n�
 Alkuperäisen sanoituksen tekijä ei ole ainakaan minulla tiedossa. Jos olet alkuperäinen sanoittaja, lähetä viestiä niin saamme nimen saitille. Käytännössähän muiden teekkarilaulujen tavoin Hullun kirvesmiehen sanoja on levitetty täysin tekijänoikeuksista välittämättä - laulu kuuluu kaikille.
 
 Muu tämän sivun sisältö on käytettävissä [WTFPL-lisenssin](http://en.wikipedia.org/wiki/WTFPL) ehdoin. Pull requestin tekemällä suostut siihen, että myös tuottamasi teksti jaetaan samoin ehdoin.
+
+## Kontribuutiot
+
+Seuraavat ihmiset ovat osallistuneet säkeistöjen sanoittamiseen.
+
+Alkuperäinen säkeistö:
+* ?
+
+Oululainen:
+* Lauri Haapamäki
+* Anni Sarvaranta
