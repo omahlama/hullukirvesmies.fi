@@ -1,0 +1,5 @@
+name: Hullu kirvesmies
+markdown: redcarpet
+pygments: true
+
+exclude: ["CNAME", "LICENSE.txt", "README.md"]

@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300 !important;
+  color: #222;
+  line-height: 27px;
+}
+
+#wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+p {
+  white-space: pre-wrap;
+}
+
+footer {
+  margin-top: 2em;
+  font-size: 75%;
+}
