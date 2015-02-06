@@ -25,9 +25,27 @@ hullu hakkaa vielä nytkin
 niskantynkää verta pursuvaa.">
     </head>
     <body>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                  appId      : '426065477550355',
+                  xfbml      : true,
+                  version    : 'v2.2'
+                });
+            };
+
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
       <div id="wrapper">
         {{ content }}
         <footer>Lisää säkeistöjä tai korjaa virheitä <a href="https://github.com/omahlama/hullukirvesmies.fi">githubissa</a></footer>
+        <div class="fb-like" data-href="https://www.facebook.com/pages/hullukirvesmiesfi/1537425139844645" data-width="300" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
       </div>
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
