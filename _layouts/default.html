@@ -44,9 +44,11 @@ niskantynkää verta pursuvaa.">
                   version    : 'v2.2'
                 });
                 FB.Event.subscribe('edge.create', function(targetUrl) {
+                  ga('send', 'event', 'facebook', 'fb-like');
                   ga('send', 'social', 'facebook', 'like', targetUrl);
                 });
                 FB.Event.subscribe('edge.remove', function(targetUrl) {
+                  ga('send', 'event', 'facebook', 'fb-remove');
                   ga('send', 'social', 'facebook', 'remove', targetUrl);
                 });
             };
